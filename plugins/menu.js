@@ -85,7 +85,6 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 │ Level *%level (%exp / %maxexp)* [%xp4levelup lagi untuk levelup]
 │ %totalexp XP in Total
 │ 
-│ Tanggal: *%week %weton, %date*
 │ Waktu: *%time*
 │
 │ Uptime: *%uptime (%muptime)*

@@ -7,7 +7,7 @@ handler.before = m => {
 	let before = user.level * 1
 	while (levelling.canLevelUp(user.level, user.exp, global.multiplier)) user.level++
 	if (before !== user.level) m.reply(`
-Selamat, anda telah naik level!
+Selamat, anda telah naik level.Jangan lupa subs channel owner ya < Fakhrul 251>
 *${before}* -> *${user.level}*
 gunakan *.profile* untuk mengecek
 	`.trim())
